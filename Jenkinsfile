@@ -1,11 +1,11 @@
 pipeline {
     agent any
     environment {
-        env: main
+        env: Test
     }
 
     stages{
-        stage("Greetings to main"){
+        stage("Greetings to Test"){
             steps{
                 sh 'echo "Welcome to $env environment"'
             }
