@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        env: "main"
+        env = "main"
     }
 
     stages{
